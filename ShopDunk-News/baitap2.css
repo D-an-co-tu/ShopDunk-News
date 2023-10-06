@@ -1,0 +1,261 @@
+﻿body {
+    margin: 0px;
+    border: none;
+    overflow-x: hidden;
+    max-width: 100%;
+    font: normal 14px 'Arial';
+}
+
+.press3 {
+    display: flex;
+}
+
+.board5 {
+    display: flex;
+    border-bottom: 1px solid #86868B;
+    padding-bottom: 20px;
+    margin-left: 300px;
+}
+
+.board6 {
+    display: flex;
+    border-bottom: 1px solid #86868B;
+    padding-bottom: 20px;
+    margin-right: 300px;
+}
+
+.fontb5 {
+    margin-right: 300px;
+}
+
+.register-content {
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
+
+.register {
+    margin-bottom: 60px;
+}
+
+.main {
+    font-size: 30px;
+}
+
+.selection a {
+    margin: 25px;
+}
+
+.board4 {
+    text-align: center;
+}
+
+#topic-1 {
+    position: absolute;
+    font-size: 20px;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 2.68%,rgba(0,0,0,.72) 53.2%,rgba(0,0,0,.86) 69.35%,#000 86.01%);
+    color: white;
+    padding: 25px;
+    width: 41%;
+    border-radius: 8px;
+    bottom: 360px;
+}
+
+.font-topic-1 {
+    margin-left: 300px;
+    text-align: left;
+}
+
+.board1 {
+    margin-right: 360px;
+}
+
+#topic-2 {
+    position: absolute;
+    font-size: 20px;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 2.68%,rgba(0,0,0,.72) 53.2%,rgba(0,0,0,.86) 69.35%,#000 86.01%);
+    color: white;
+    padding: 25px;
+    width: 18.6%;
+    border-radius: 8px;
+    bottom: 600px;
+    text-align: left;
+}
+
+
+#topic3 {
+    position: absolute;
+    font-size: 20px;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 2.68%,rgba(0,0,0,.72) 53.2%,rgba(0,0,0,.86) 69.35%,#000 86.01%);
+    color: white;
+    padding: 25px;
+    width: 18.6%;
+    border-radius: 8px;
+    bottom: 361px;
+    text-align: left;
+}
+
+div {
+    display: block;
+}
+
+#img1 {
+    width: 99%;
+    position: relative;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+
+#img2 {
+    width: 57.3%;
+    position: relative;
+    border-radius: 8px;
+}
+
+#img3 {
+    width: 57.3%;
+    position: relative;
+    padding-top: 30px;
+    height: 190px;
+}
+
+#img4 {
+    width: 90.5%;
+    border-radius: 8px;
+    position: relative;
+}
+
+#img5 {
+    width: 370px;
+    height: 225px;
+    max-height: 100%;
+    border-radius: 8px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.press {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.press2 {
+    display: block;
+}
+
+
+.main-content {
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+
+#newRegister {
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#email {
+    line-height: 10px;
+    padding: 5px 0 5px 24px;
+    font-size: 15px;
+}
+
+#subscribe-button {
+    line-height: 20px;
+}
+
+
+#email {
+    border-radius: 20px;
+    border-color: none;
+    width: 17%;
+}
+
+#subscribe-button {
+    border-radius: 20px;
+    font-size: small;
+    background-color: #0066ff;
+    color: white;
+    width: 5.5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+}
+
+.selection a {
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #E5E4E2;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+}
+
+.topic-block {
+    margin: 0 0 25px;
+}
+
+.topic-block-body {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.video-area {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 40px 0;
+    background: #101010;
+    clear: both;
+}
+
+.content-video {
+    max-width: 1200px;
+    width: 100%;
+    min-width: 980px;
+    position: relative;
+    margin: auto;
+}
+
+    .content-video > img {
+        margin-top: 10px;
+    }
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.all_content_video {
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 20px;
+}
+
+.item_video.big_vd {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-bottom: 20px;
+}
+
+iframe {
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
